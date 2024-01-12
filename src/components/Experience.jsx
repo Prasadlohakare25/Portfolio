@@ -58,7 +58,7 @@ function Experience() {
                         These are some techonlogies I have worked with.
                     </p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-5 md:py-8 px-12 sm:px-0'>
 
                     {
                         exp.map((e) => (<div className={`shadow-md hover:scale-105 duration-500 py-2 round-lg ${e.style}`} key={e.id} >
