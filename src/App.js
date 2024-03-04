@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
       <Portfolio />
       <Experience />
       <Contact />
-
       <SocialLinks />
     </div>
   );

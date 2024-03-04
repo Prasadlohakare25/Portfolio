@@ -31,7 +31,7 @@ function Navbar() {
     return (
         <div className='flex justify-between items-center w-full h-10 fixed text-white bg-black p-3 md:h-16'>
             <div>
-                <h1 className='font-signature text-3xl ml-1 md:text-5xl'>Prasad Lohakare</h1>
+                <h1 className='font-signature text-3xl ml-1 md:text-5xl'><span className='text-red-500'>Prasad</span> Lohakare</h1>
             </div>
             <ul className='hidden md:flex'>
 
@@ -51,8 +51,6 @@ function Navbar() {
                 ))}
 
             </ul>)}
-
-
         </div>
     )
 }
